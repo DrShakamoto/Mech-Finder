@@ -12,7 +12,7 @@ reddit = praw.Reddit(client_id=' ',
                      user_agent=' ',
                      username=' ')#creates the reddit client, fill in your reddit credentials
 
-subreddit = reddit.subreddit(' ')#gets the subreddit, fill in the name of your subreddit
+subreddit = reddit.subreddit('mechmarket')#gets the subreddit, fill in the name of your subreddit
 
 def sendEmail(postLink): #sends the email
     msg = MIMEMultipart()
